@@ -26,7 +26,7 @@ function StarUbers() {
     <h2>Exercício para informar o Tempo que leva a viagem</h2>
     <button onClick={processarTempo}>Processar</button>
     {resultado}
-  </div>""
+  </div>
   )
 }
 
