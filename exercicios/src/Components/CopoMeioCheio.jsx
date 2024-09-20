@@ -20,7 +20,7 @@ function CopoMeioCheio() {
   return (
     <div className='CopoMeioCheio'>
       <h2>Exercício para ver se o número digitado é negativo positivo ou Nulo</h2>
-      <button onClick={processarNumero}>Processar</button>
+      <button onClick={processarNumero} className= "processar2">Processar</button>
       {resultado}
     </div>
   )

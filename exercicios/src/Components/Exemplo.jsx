@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './Exemplo.css'
 
 function Exemplo() {
 
@@ -14,9 +15,9 @@ function Exemplo() {
 
   return (
     <div>
-    <button onClick={aumentar}>+</button>
-    <button onClick={diminuir}>-</button>
-      {resultado}
+    <button onClick={aumentar} className= "botao+">+</button>
+    {resultado}
+    <button onClick={diminuir} className= "botao-">-</button>
     </div>
   )
 }

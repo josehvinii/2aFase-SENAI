@@ -18,7 +18,7 @@ function DoisCoposMeioCheios() {
   return (
     <div className='DoisCoposMeioCheios'>
       <h2>Exercício para ver se o número digitado é par e positivo ao mesmo tempo</h2>
-      <button onClick={processarNumero}>Processar</button>
+      <button onClick={processarNumero} className= "processar">Processar</button>
       {resultado}
     </div>
   )
