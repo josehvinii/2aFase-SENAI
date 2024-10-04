@@ -8,7 +8,7 @@ function App() {
      <h1>Atalhos do VS Code</h1>
      <h2>Coisas legais para facilitar tua vida</h2>
      <p>
-      comando para o emmet da ul: ul>li*6
+      comando para o emmet da ul: ul li*6
      </p>
      <ul>
       <li>Atalho: alt + z para quebra automática de linha.</li>
